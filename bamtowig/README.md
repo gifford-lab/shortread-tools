@@ -11,7 +11,7 @@ Also supports auto-batch converting, generating track names and adding bigwigs t
 
 ## main functions
 
-**allwig.sh** : takes in genome name (mm10/hg19/etc) batch converts everything in the current directory ending in .bam and makes UCSC track lines outputted as wigtracks.txt
+**allwig.sh** : takes in genome name (mm10/hg19/etc) batch converts everything in the current subdirectories ending in .bam and makes UCSC track lines outputted as wigtracks.txt, as well as append those to the tracks.txt in pax6.csail.mit.edu/thashim/wigs/tracks.txt
 
 **bamtobigwig.sh** : takes a bam and a genome name (mm10, hg19 etc) and generates a bigwig file (.bw) in the same directory
 
